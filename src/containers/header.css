@@ -1,0 +1,18 @@
+.Body {
+    display: flex;
+    color: black;
+}
+
+.ul>img{
+    text-align: center;
+    color: black;
+    text-align: center;
+    display: flex;
+    width: 100px;
+   
+
+}
+
+.img{display: flex;
+    color: blue;
+}
