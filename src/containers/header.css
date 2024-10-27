@@ -1,18 +1,28 @@
-.Body {
+ul{
     display: flex;
-    color: black;
+};
+
+.global {
+    display: flex;
 }
 
-.ul>img{
-    text-align: center;
-    color: black;
-    text-align: center;
+.logo{
     display: flex;
+    padding: 100px;
     width: 100px;
+    height: 100px;
+};
+
+.icon {
+    display: flex;
+  flex-wrap: wrap;
+    gap: 10px;
+  }
+
+.icon p img {
+    width: 10px;
+    height: 10px; 
+    
    
-
-}
-
-.img{display: flex;
-    color: blue;
-}
+  margin-right: 8px; 
+  }

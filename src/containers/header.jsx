@@ -1,7 +1,6 @@
-// src/containers/Header.jsx
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import './header.css';
+import './index.css';
 import logo from '../assets/xuliz-logo.png'; 
 import baixo from '../assets/icon/baixo.png';
 import lado from '../assets/icon/lado.png';
@@ -10,6 +9,7 @@ import parcela from '../assets/icon/parcela.png';
 import taxas from '../assets/icon/taxas.png';
 import automatic from '../assets/icon/automatic.png';
 import maquinaXuliz from '../assets/xuliz.png';
+import './header.css';
 
 function Header() {
   const navigate = useNavigate();
@@ -17,9 +17,9 @@ function Header() {
   // Função para navegar para a página inicial ao clicar na logo
 
   return (
-    <header className="Body">
-      <ul className="ul">
-        <img 
+    <header className="fundo">
+      <ul>
+        <img className="logo"
           src={logo} 
           alt="Logo"/>
 
@@ -59,7 +59,7 @@ function Header() {
         </p>
       </div>
 
-      <div>
+      <div className="icon">
         <div>
           <p><img src={pix} alt="" />Pix na maquininha</p>
           <p><img src={parcela} alt="" />Parcele em até 12x</p>

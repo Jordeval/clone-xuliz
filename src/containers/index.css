@@ -1,3 +1,23 @@
-header{
+root: {
+    margin: 0;
+    left: 0;
+}
+
+.global {
+    display: flex;
+}
+
+.fundo{
+    display: flex;
     background-color:#262626 ;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    color: black;
+    text-align: center;
+    display: flex;
+    /* width: 10px; */
 }
