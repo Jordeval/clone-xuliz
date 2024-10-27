@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul{
     display: flex;
 };
@@ -26,3 +27,31 @@ ul{
    
   margin-right: 8px; 
   }
+=======
+.Body {
+    display: flex;
+    color: black;
+}
+
+.ul>img{
+    text-align: center;
+    color: black;
+    text-align: center;
+    display: flex;
+    width: 100px;
+   
+
+}
+
+.img{display: flex;
+    color: blue;
+}
+
+footer{
+    background-color:#262626 ;
+};
+
+.maquina1.maquina2{
+    background-color:#262626 ;
+};
+>>>>>>> 86a5b5bb02f9fb8423b3204125f4af6fce27b54f
